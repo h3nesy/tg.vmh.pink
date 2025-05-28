@@ -8,7 +8,7 @@
   <style>
     body {
       font-family: 'Poppins', sans-serif;
-      background-color: #f9fafb;
+      background-color: #0f172a;
       padding: 24px;
       display: flex;
       flex-direction: column;
@@ -24,11 +24,11 @@
     }
 
     .card {
-      background-color: #ffffff;
-      border: 1px solid #e5e7eb;
+      background-color: #1e293b;
+      border: 1px solid #334155;
       border-radius: 12px;
       padding: 24px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
       width: 100%;
     }
 
@@ -47,9 +47,15 @@
     }
 
     .title {
-      font-size: 20px;
-      font-weight: 600;
-      color: #111827;
+        font-size: 20px;
+        font-weight: 600;
+        color: #f8fafc; /* sáng hơn, rõ hơn */
+    }
+
+    .title.one {
+        font-size: 15px;
+        font-weight: 600;
+        color: #f8fafc; /* sáng hơn, rõ hơn */
     }
 
     .grid {
@@ -60,15 +66,14 @@
     }
 
     .label {
-      font-size: 14px;
-      color: #6b7280;
+    color: #94a3b8;
     }
 
     .value {
-      font-size: 15px;
-      color: #111827;
+     font-size: 15px;
       font-weight: 500;
-      word-break: break-word;
+        color: #f1f5f9; /* trắng nhẹ */
+        word-break: break-word;
     }
 
     .actions {
@@ -103,6 +108,14 @@
       background-color: #2563eb;
     }
 
+    .status-dot.red {
+     background-color: #ef4444;
+    }
+
+    .status-dot.g {
+     background-color: #ff0000;
+    }
+
     @media (max-width: 600px) {
       .grid {
         grid-template-columns: 1fr;
@@ -112,6 +125,10 @@
         padding: 16px;
       }
     }
+
+    p {
+        color: #f8fafc;
+    }
   </style>
 </head>
 <body>
@@ -119,6 +136,14 @@
   <div class="container">
 
     <!-- Proxy 1 -->
+<div class="card">
+        <div class="title"><div class="status-dot g"></div><center>VMH.PINK - TELEGRAM PROXY UNLIMITED</center></div>
+        <div class="title one"><center>Note : This proxy are free for all - do not buy and sell from anyone</center></div>
+        <div class="title one"><center>Bring Telegram Back To VietNam</center></div>
+        <div class="title one"><center>Booking ads : @vuumanhhung</center></div>
+        <div class="title one"><center>Any support contact tg : @vuumanhhung</center></div>
+        <div class="title one"><center>Telegram update channel : @vmhproxy</center></div>
+</div>
     <div class="card">
       <div class="header">
         <div class="status-dot"></div>
@@ -178,7 +203,7 @@
       </div>
       <div class="card">
         <div class="header">
-          <div class="status-dot"></div>
+          <div class="status-dot red"></div>
           <div class="title">Proxy 4</div>
         </div>
         <div class="grid">
@@ -203,7 +228,7 @@
           <div><div class="label">Provider</div><div class="value">NTSProxy</div></div>
           <div><div class="label">Region</div><div class="value">Singapore</div></div>
           <div><div class="label">Protocol</div><div class="value">MTProto</div></div>
-          <div><div class="label">ISP</div><div class="value">Amazon EC2</div></div>
+          <div><div class="label">ISP</div><div class="value">OVH Cloud</div></div>
           <div><div class="label">Secret</div><div class="value">dd03cf872d73803f9db8c3ca1bfad1a029</div></div>
           <div><div class="label">IP</div><div class="value">server1.nguyenthanhson.dev</div></div>
           <div><div class="label">Port</div><div class="value">443</div></div>
