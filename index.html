@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Telegram Free Proxy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      background-color: #f9fafb;
+      padding: 40px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 24px;
+      width: 600px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .status-dot {
+      height: 12px;
+      width: 12px;
+      border-radius: 50%;
+      background-color: #22c55e;
+      margin-right: 10px;
+    }
+
+    .title {
+      font-size: 20px;
+      font-weight: 600;
+      color: #111827;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px 24px;
+      margin-top: 16px;
+    }
+
+    .label {
+      font-size: 14px;
+      color: #6b7280;
+    }
+
+    .value {
+      font-size: 15px;
+      color: #111827;
+      font-weight: 500;
+    }
+
+    .resize {
+      color: #3b82f6;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .actions {
+      margin-top: 16px;
+      display: flex;
+      gap: 8px;
+    }
+
+    .action-btn {
+      background-color: #f1f5f9;
+      border: 1px solid #d1d5db;
+      border-radius: 6px;
+      padding: 6px 12px;
+      font-size: 13px;
+      color: #374151;
+      cursor: pointer;
+    }
+
+    .primary-btn {
+      background-color: #3b82f6;
+      color: white;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="card">
+    <div class="header">
+      <div class="status-dot"></div>
+      <div class="title">Proxy 1</div>
+    </div>
+
+    <div class="grid">
+      <div>
+        <div class="label">Provide</div>
+        <div class="value">vmh.pink</div>
+      </div>
+      <div>
+        <div class="label">Region</div>
+        <div class="value">Singapore</div>
+      </div>
+
+      <div>
+        <div class="label">Protocol</div>
+        <div class="value">MTProto</div>
+      </div>
+      <div>
+        <div class="label">ISP</div>
+        <div class="value">DigitalOcean</div>
+      </div>
+      <div>
+        <div class="label">Secrect</div>
+        <div class="value">ee50366fe6e74a686367a1c9877cc911</div>
+      </div>
+      <div>
+        <div class="label">IP</div>
+        <div class="value">s1.vmh.pink</div>
+      </div>
+
+      <div>
+        <div class="label">Port</div>
+        <div class="value">443</div>
+      </div>
+    </div>
+    <div class="actions">
+        <a href="tg://proxy?server=s1.vmh.pink&port=443&secret=ee50366fe6e74a686367a1c9877cc911" target="_blank" class="action-btn primary-btn">Connect Proxy</a>
+      </div>
+    </div>
+    <br>
+    <div class="card">
+        <div class="header">
+          <div class="status-dot"></div>
+          <div class="title">Proxy 2</div>
+        </div>
+    
+        <div class="grid">
+          <div>
+            <div class="label">Provide</div>
+            <div class="value">vmh.pink</div>
+          </div>
+          <div>
+            <div class="label">Region</div>
+            <div class="value">Singapore</div>
+          </div>
+    
+          <div>
+            <div class="label">Protocol</div>
+            <div class="value">MTProto</div>
+          </div>
+          <div>
+            <div class="label">ISP</div>
+            <div class="value">DigitalOcean</div>
+          </div>
+          <div>
+            <div class="label">Secrect</div>
+            <div class="value">ee79c8525bfc90f7195cfbf8b3db0ef7</div>
+          </div>
+          <div>
+            <div class="label">IP</div>
+            <div class="value">s2.vmh.pink</div>
+          </div>
+    
+          <div>
+            <div class="label">Port</div>
+            <div class="value">443</div>
+          </div>
+        </div>
+        <div class="actions">
+            <a href="tg://proxy?server=s2.vmh.pink&port=443&secret=ee79c8525bfc90f7195cfbf8b3db0ef7" target="_blank" class="action-btn primary-btn">Connect Proxy</a>
+          </div>
+        </div>
+            <br>
+    <div class="card">
+        <div class="header">
+          <div class="status-dot"></div>
+          <div class="title">Proxy 3</div>
+        </div>
+    
+        <div class="grid">
+          <div>
+            <div class="label">Provide</div>
+            <div class="value">vmh.pink</div>
+          </div>
+          <div>
+            <div class="label">Region</div>
+            <div class="value">Singapore</div>
+          </div>
+    
+          <div>
+            <div class="label">Protocol</div>
+            <div class="value">MTProto</div>
+          </div>
+          <div>
+            <div class="label">ISP</div>
+            <div class="value">LigtSail Amazon EC2</div>
+          </div>
+          <div>
+            <div class="label">Secrect</div>
+            <div class="value">ee6dced264bf7e6ba51fa0e2aed9621e</div>
+          </div>
+          <div>
+            <div class="label">IP</div>
+            <div class="value">s3.vmh.pink</div>
+          </div>
+    
+          <div>
+            <div class="label">Port</div>
+            <div class="value">443</div>
+          </div>
+        </div>
+        <div class="actions">
+            <a href="tg://proxy?server=s3.vmh.pink&port=443&secret=ee6dced264bf7e6ba51fa0e2aed9621e" target="_blank" class="action-btn primary-btn">Connect Proxy</a>
+          </div>
+        </div>
+            <br>
+    <div class="card">
+        <div class="header">
+          <div class="status-dot"></div>
+          <div class="title">Proxy 4</div>
+        </div>
+    
+        <div class="grid">
+          <div>
+            <div class="label">Provide</div>
+            <div class="value">vmh.pink</div>
+          </div>
+          <div>
+            <div class="label">Region</div>
+            <div class="value">Singapore</div>
+          </div>
+    
+          <div>
+            <div class="label">Protocol</div>
+            <div class="value">MTProto</div>
+          </div>
+          <div>
+            <div class="label">ISP</div>
+            <div class="value">LightSail Amazon EC2</div>
+          </div>
+          <div>
+            <div class="label">Secrect</div>
+            <div class="value">xxxx</div>
+          </div>
+          <div>
+            <div class="label">IP</div>
+            <div class="value">xxxxx</div>
+          </div>
+    
+          <div>
+            <div class="label">Port</div>
+            <div class="value">443</div>
+          </div>
+        </div>
+        <div class="actions">
+            <a href="#" target="_blank" class="action-btn primary-btn">This Proxy Is Undermaintain</a>
+          </div>
+        </div>
+            <br>
+    <div class="card">
+        <div class="header">
+          <div class="status-dot"></div>
+          <div class="title">Proxy 5</div>
+        </div>
+    
+        <div class="grid">
+          <div>
+            <div class="label">Provide</div>
+            <div class="value">NTSProxy</div>
+          </div>
+          <div>
+            <div class="label">Region</div>
+            <div class="value">Singapore</div>
+          </div>
+    
+          <div>
+            <div class="label">Protocol</div>
+            <div class="value">MTProto</div>
+          </div>
+          <div>
+            <div class="label">ISP</div>
+            <div class="value">OVH Cloud</div>
+          </div>
+          <div>
+            <div class="label">Secrect</div>
+            <div class="value">dd03cf872d73803f9db8c3ca1bfad1a029</div>
+          </div>
+          <div>
+            <div class="label">IP</div>
+            <div class="value">server1.nguyenthanhson.dev</div>
+          </div>
+    
+          <div>
+            <div class="label">Port</div>
+            <div class="value">443</div>
+          </div>
+        </div>
+        <div class="actions">
+            <a href="tg://proxy?server=server1.nguyenthanhson.dev&port=443&secret=dd03cf872d73803f9db8c3ca1bfad1a029" target="_blank" class="action-btn primary-btn">Connect Proxy</a>
+          </div>
+        </div>
+                    <br>
+    <div class="card">
+        <div class="header">
+          <div class="status-dot"></div>
+          <div class="title">Proxy 5</div>
+        </div>
+    
+        <div class="grid">
+          <div>
+            <div class="label">Provide</div>
+            <div class="value">NTSProxy</div>
+          </div>
+          <div>
+            <div class="label">Region</div>
+            <div class="value">Singapore</div>
+          </div>
+    
+          <div>
+            <div class="label">Protocol</div>
+            <div class="value">MTProto</div>
+          </div>
+          <div>
+            <div class="label">ISP</div>
+            <div class="value">AWS EC2</div>
+          </div>
+          <div>
+            <div class="label">Secrect</div>
+            <div class="value">67d383c929c2c54197e558e455a87b53</div>
+          </div>
+          <div>
+            <div class="label">IP</div>
+            <div class="value">server2.nguyenthanhson.dev</div>
+          </div>
+    
+          <div>
+            <div class="label">Port</div>
+            <div class="value">443</div>
+          </div>
+        </div>
+        <div class="actions">
+            <a href="tg://proxy?server=server2.nguyenthanhson.dev&port=443&secret=67d383c929c2c54197e558e455a87b53" target="_blank" class="action-btn primary-btn">Connect Proxy</a>
+          </div>
+        </div>
+</div>
+    
+      
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  .action-btn {
+    display: inline-block;
+    background-color: #f1f5f9;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    padding: 6px 14px;
+    font-size: 13px;
+    color: #374151;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none; /* <- Xóa gạch chân */
+    transition: background-color 0.2s ease;
+  }
+
+  .action-btn:hover {
+    background-color: #e2e8f0;
+  }
+
+  .primary-btn {
+    background-color: #3b82f6;
+    color: white !important;
+    border: none;
+  }
+
+  .primary-btn:hover {
+    background-color: #2563eb;
+  }
+</style>
+
+  </div>
+</body>
+</html>
