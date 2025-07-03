@@ -6,13 +6,14 @@
   <title>VMH Proxy Dashboard</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
   <style>
-  body {
+body {
   font-family: 'Poppins', sans-serif;
   background-color: #000000; /* nền đen tuyệt đối */
   padding: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #ffffff; /* chữ trắng rõ ràng */
 }
 
 .container {
@@ -24,11 +25,11 @@
 }
 
 .card {
-  background-color: #111111; /* thẻ card tối hơn */
-  border: 1px solid #333333; /* viền nhẹ màu xám */
+  background-color: #121212; /* thẻ đen nhẹ */
+  border: 1px solid #2c2c2c;
   border-radius: 12px;
   padding: 24px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
   width: 100%;
 }
 
@@ -42,16 +43,93 @@
   height: 12px;
   width: 12px;
   border-radius: 50%;
-  background-color: #22c55e; /* màu xanh online */
+  background-color: #22c55e;
   margin-right: 10px;
 }
 
 .status-dot.red {
-  background-color: #ef4444; /* đỏ offline */
+  background-color: #ef4444;
 }
 
 .status-dot.g {
-  background-color: #ff0
+  background-color: #ff0000;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.title.one {
+  font-size: 15px;
+  font-weight: 600;
+  color: #cccccc;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px 24px;
+  margin-top: 16px;
+}
+
+.label {
+  color: #aaaaaa;
+}
+
+.value {
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  word-break: break-word;
+}
+
+.actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.action-btn {
+  display: inline-block;
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 13px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.action-btn:hover {
+  background-color: #2c2c2c;
+}
+
+.primary-btn {
+  background-color: #3b82f6;
+  color: #ffffff !important;
+  border: none;
+}
+
+.primary-btn:hover {
+  background-color: #2563eb;
+}
+
+p {
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  body {
+    padding: 16px;
+  }
+}
 
   </style>
 </head>
